@@ -26,7 +26,10 @@ This folders contains most of the files which I used for the routing and control
 
 ## D Star Planner/Global Path Planner
 Initially, I thought to the D* Lite algorithm due to its success in other people's projects, but in my case I found it more useful to the Dynamic A* due to the assumption that this car would operate in a remote area with no dynamic objects people etc, this meant that the replanner actually performs almost in linear time to the size of the area getting blocked off. The planner initially the Dynamic A* planner senses for if the goal_node has been defined, which is a longitude and a latitude coordinate broadcasted on the goal_node topic, if the goal node is received, then it begins initializing the map, based on the manhattan distances for the entire grid. Currently, this planner doesn't support loading an prestored maps, therefore the weights of the nodes are always the same during the initialization. 
+
+
 **Problem**
+
 The initialization phase is that the algorithm wasn't implemented using Quadtrees, which meant that the running time is O(n^2) where n is the x or y dimension, if given more time I believe the implementation of Quadtrees would be significantly increase the running speed and definition of the algorithm during initialization.
 
 ## createPointcloud / pointCloudProcessing
