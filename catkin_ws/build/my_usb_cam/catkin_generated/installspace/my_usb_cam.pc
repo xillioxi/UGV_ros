@@ -1,0 +1,8 @@
+prefix=/home/kevin/ros_ws/catkin_ws/install
+
+Name: my_usb_cam
+Description: Description of my_usb_cam
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/kevin/ros_ws/catkin_ws/install
+
+Name: random_coordinates_publisher
+Description: Description of random_coordinates_publisher
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+gscam:jetson_nano_csi_cam_ros:my_usb_cam:orb_slam3_ros_wrapper:random_coordinates_publisher:trajectory_planner
+-DCATKIN_DEVEL_PREFIX=/home/kevin/ros_ws/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kevin/ros_ws/catkin_ws/install -G Unix Makefiles
